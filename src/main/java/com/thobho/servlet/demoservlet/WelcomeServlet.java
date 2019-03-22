@@ -34,6 +34,7 @@ public class WelcomeServlet extends HttpServlet {
 
         PrintWriter writer = resp.getWriter();
         writer.println("<h1>Hello</h1>");
+
     }
 
     @Override

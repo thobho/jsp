@@ -5,6 +5,7 @@ import com.thobho.service.UserRegisterException;
 import com.thobho.service.UserService;
 
 import javax.servlet.ServletException;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -38,7 +39,6 @@ public class LoginAction extends HttpServlet {
         } else {
             throw new UserRegisterException();
         }
-
 
     }
 
