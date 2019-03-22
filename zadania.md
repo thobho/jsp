@@ -128,7 +128,7 @@ Jeżli filter wykryje, że użytkownik nie jest zalogowany, to niech rzuca przyg
 który w następnym punkcie posłuży do wygenerowania strony błędu. 
 4. Przygotuj wcześniej strony błędów, na które będzie przekierowany użytkownik. Obsłuż przynajmniej 
   błąd serwera 500 i nieznalezione zasób 404 i jeden swój wyjątek.
-
+5. Stwirzebue servketu, który będzie inavlidował sesję użytkownika.
 **Zadania dodatkowe**
 
 1. W opcji rejestracji stwórz dodakowe opcje, które użytkownik może sobie skonfigurować.

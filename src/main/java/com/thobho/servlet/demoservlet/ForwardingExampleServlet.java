@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
 @WebServlet(urlPatterns = "/forwarding")
 public class ForwardingExampleServlet extends HttpServlet {
     @Override
@@ -16,6 +17,8 @@ public class ForwardingExampleServlet extends HttpServlet {
         System.out.println("do get in servlet");
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("receiver");
+
+
 
         PrintWriter writer = resp.getWriter();
         writer.println("from forwarder2");
