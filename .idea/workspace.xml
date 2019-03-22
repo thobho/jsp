@@ -6,31 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0be7582-78e9-4363-895a-4bd31ecff60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/filters/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/filters/LoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/repository/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/service/UserRegisterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/servlet/LoginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/servlet/LogoutAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/servlet/demoservlet/UploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/servlet/demoservlet/WelcomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/demojsp/simpleUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/error/generalError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/error/registerError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/registerSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/secret.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsptutorial.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/part.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania.md" afterDir="false" />
-    </list>
+    <list default="true" id="d0be7582-78e9-4363-895a-4bd31ecff60e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +72,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/git.ignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -207,6 +187,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/thobho/servlet/RegisterAction.java" />
         <option value="$PROJECT_DIR$/zadania.md" />
+        <option value="$PROJECT_DIR$/git.ignore" />
       </list>
     </option>
   </component>
@@ -240,11 +221,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="30" />
-    <option name="width" value="1682" />
-    <option name="height" value="1025" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="9" />
+    <option name="width" value="1674" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,46 +239,6 @@
               <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thobho" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thobho" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jsptutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jsptutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +252,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553280168691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553282262767" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/thobho" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -443,12 +383,12 @@
       <workItem from="1552944639177" duration="1482000" />
       <workItem from="1552946148902" duration="21762000" />
       <workItem from="1553116306824" duration="8642000" />
-      <workItem from="1553207826729" duration="4373000" />
+      <workItem from="1553207826729" duration="5173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47578000" />
+    <option name="totallyTimeSpent" value="48378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,9 +400,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="30" width="1682" height="1025" extended-state="6" />
+    <frame x="-1" y="30" width="1682" height="1025" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2045177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2045177" />
       <window_info id="Structure" order="1" sideWeight="0.5011111" side_tool="true" weight="0.25885227" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -477,7 +417,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Application Servers" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -966,7 +906,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/git.ignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
