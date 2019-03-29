@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <welcome-file-list>
+        <welcome-file>demoJsp.jsp</welcome-file>
+    </welcome-file-list>
+
     <context-param>
         <param-name>paramAvailableInAllservlets</param-name>
         <param-value>paramValue</param-value>
     </context-param>
-
-    <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
 
     <!--<error-page>-->
         <!--<location>/generalError.jsp</location>-->
@@ -33,6 +33,16 @@
     </servlet>
 
     <servlet>
+        <servlet-name>Index2</servlet-name>
+        <jsp-file>/jsp2/index.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Index2</servlet-name>
+        <url-pattern>/index2.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>LoginAction</servlet-name>
         <servlet-class>com.thobho.servlet.LoginAction</servlet-class>
     </servlet>
@@ -51,6 +61,16 @@
         <servlet-name>SecretPage</servlet-name>
         <jsp-file>/jsp/secret.jsp</jsp-file>
     </servlet>
+
+    <servlet>
+        <servlet-name>DemoJsp</servlet-name>
+        <jsp-file>/jsp/jspDemo.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DemoJsp</servlet-name>
+        <url-pattern>/demoJsp.jsp</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>GeneralError</servlet-name>

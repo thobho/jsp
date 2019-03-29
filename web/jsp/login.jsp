@@ -9,13 +9,14 @@
 <html>
 <head>
     <title>logn</title>
+    <style><%@include file="../css/login.css"%></style>
 </head>
 <body>
 <h1>You have account LOGIN!</h1>
-<div style="width: 100%">
-    <div style="margin:20px auto; width: 400px; background-color: chartreuse">
+<div id="login-form-container">
+    <div id="login-form-div">
         <form action="loginAction" method="post">
-            Login: <input name="login" type="text"><br>
+            Login: <input id="login-input"  name="login" type="text"><br>
             Password: <input name="password" type="password"><br>
             <input name="submit" type="submit">
         </form>
