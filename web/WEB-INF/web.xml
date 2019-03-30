@@ -5,7 +5,7 @@
          version="4.0">
 
     <welcome-file-list>
-        <welcome-file>demoJsp.jsp</welcome-file>
+        <welcome-file>exercisesJspDemo.jsp</welcome-file>
     </welcome-file-list>
 
     <context-param>
@@ -66,6 +66,16 @@
         <servlet-name>DemoJsp</servlet-name>
         <jsp-file>/jsp/jspDemo.jsp</jsp-file>
     </servlet>
+
+    <servlet>
+        <servlet-name>ExercisesDemoJsp</servlet-name>
+        <jsp-file>/jsp/exercisesJspDemo.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExercisesDemoJsp</servlet-name>
+        <url-pattern>/exercisesJspDemo.jsp</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>DemoJsp</servlet-name>

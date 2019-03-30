@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+#header-div {
+    background-color: aqua;
+    color: blueviolet;
+    position: center;
+    font-size: 50px;
+    border: aquamarine 10px dashed;
+}
+
+.title-class{
+    background-color: blueviolet;
+    font-size: xx-large;
+    opacity: 70%;
+
+
+
+
+}

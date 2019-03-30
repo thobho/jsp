@@ -1,0 +1,60 @@
+**LOGOWANIE**
+
+1. Upewnij się, że masz stronę powitalną, która zawiera 2 linki
+    - link do strony logowania
+    - link do strony rejestracji
+
+2. Upewnij się, że masz zaimplementowaną klasy `UserService.java` posiadająca metody do dodawania/wyświetlania
+użytkownika/użytkowników.
+
+3. W klasie `UserDAO.java` w mapie, która przechowuje użytkoników w pamięci możesz zahardcodować przynajmniej
+jednego użytkownika. Dzięki temu nie będziesz musiał rejestrować nowego użytkownika po każdym restarcie serwera.
+
+4. Fukcjonalność logowania będzie składać się z następujących plików
+    - `login.jsp` - widoku, z formularzem
+    - `login.css` - arkusza styli
+    - `LoginAction.java` - servletu, który będzie obsługiwał proces logwania
+    - `LoginFilter` - filter HTTP, który będzie weryfikwoał, czy użytkownik jest zalogowany
+    - `loginError.jsp` - Jsp z informacją o błędzie podczas logowania
+    - `autenticationError.jsp` - jsp z informacją o tym, że user nie ma prawa do zasobów
+    - `secret/posts.jsp` - jsp z zasobem, do którego nie może dostać się użytkonik nie zalogowany
+    
+5. Co powinien mieć plik `login.jsp`?
+    - header strony na górze (które jest includowane z osobnego pliku)
+    - formularz logwania, który będzie pobierał dane od użytkownika i wysyłał je do `LoginAction.java`
+    - stopkę na dole strony (include z osobnego pliku)
+    - strona logoania powinna być wysytlowana za pomocą css z pliku `login.css`
+
+6. Co powinna miec klasa `LoginAction.java`
+    - klasa posiada metodę doPost, która przyjmuje login i hasło od użytkownika
+    - w metodzie jest sprawdzane, czy istnieje użytkonik z takim loginem i hasłem
+        -> jeżeli tak - zapisujemy w sesji id użytkonika oraz ustawiamy w response ciasteczko z id użytkonika
+        -> jeżeli nie to przekierowujemy na stronę (błędu) o nieprawidłowych danych logowania    
+7. Co powinna mieć klasa `AuthFilter.java`?
+    - filtr powinien być ustawiony na wszystkie takie strony, które w URL mają fragment */secret/*
+    - w metodzie `doFilter(..)` wyciągamy z ciasteczka informację o id użytkownika i sprawdzamy, czy taka informacja
+    jest zawarta w sesji i się zgadza
+        -> jeżeli tak, nie robimy nic - wychodzimy z metody
+        -> jeżeli nie, wyrzucamu wyjątek, który przechwycony przekieruje nas na stronę błędu        
+
+**DODAWANIE POSTÓW**
+
+1. Na wzór klas `User.java`, `UserDAO.java` oraz `UserService.java` stwórz klasy
+    - `Post.java` - klasę reprezentującą wpis użytkownika w serwisie. Klasa powinna posiadać przynajmniej następujące pola:
+        -> id
+        -> datę utworzenia posta
+        -> tesks posta
+        -> użytkownika, który utworzył post
+        
+2. Funkcjonalność dodawania i wyświetlania składa się z następujących plików:
+    - `secret/posts.jsp` - stronę jsp z formularzem do dodawania nowych postów, oraz poniżej z listą wszystkuich postów
+    - `secret/posts.css` - arkusz styli dla dla `secret/posts.jsp`
+    - `PostAction.java` - jest to servlet (kontroler), który obługuje dodawania/wyświetlania postów 
+
+3. Strona `/secret/posts.jsp` jest dostępna tylko dla użytkowników po zalgowaniu. Składa się ona z następujących części:
+    - headera i footera includowanych z osobnych plików
+    - formularza do do dodawania nowych postów przez zalogowanego użytkownika
+    - listy wszystkich postów wraz z datami ich dodatnia
+
+4. `PostAction.java` (jest to kontroler dla funkcji dodawania postów) zawiera metodę `doPost`, dzięki której
+    obsługiwany jest formularz z klasy `posts.jsp` 

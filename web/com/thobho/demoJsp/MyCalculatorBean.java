@@ -4,13 +4,14 @@ import java.io.Serializable;
 
 public class MyCalculatorBean implements Serializable {
     private int addingNumber;
+
     private int multiplyNumber;
 
     public int add(int number) {
         return addingNumber + number;
     }
 
-    int multiply(int number) {
+    public int multiply(int number) {
         return multiplyNumber * number;
     }
 
