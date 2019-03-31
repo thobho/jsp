@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(blue, azure);
+    text-align: center;
+}
+
+#pageHeaderDiv{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px blue;
+}
+
+#loginFormDiv{
+    background-color: blue;
+    margin: 40px;
+    padding: 20px;
+    border: 10px solid black;
+}
