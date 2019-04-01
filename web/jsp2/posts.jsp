@@ -10,8 +10,12 @@
 
 <%@include file="pageHeader.jsp" %>
 
-<div>tutaj będzie formularz do postów</div>
-<div>tutaj będzie list postów uzytkowników</div>
+    <form method="post" action="${pageContext.request.contextPath}/secret/AddPostAction">
+        <textarea name="postText"></textarea>
+        <input type="submit" name="submit">
+    </form>
+
+
 
 
 <%@include file="pageFooter.jsp" %>

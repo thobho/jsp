@@ -17,3 +17,8 @@ body{
     padding: 20px;
     border: 10px solid black;
 }
+
+#textbox{
+    width: 100%;
+    height: 100px;
+}

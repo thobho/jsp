@@ -69,7 +69,7 @@ public class RegisterAction extends HttpServlet {
             // resp.sendRedirect("userExists.jsp");
             resp.sendError(400);
         } else {
-            resp.sendRedirect("login.jsp");
+            resp.sendRedirect("login2.jsp");
         }
     }
 
