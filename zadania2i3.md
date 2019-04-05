@@ -40,3 +40,14 @@ dodawanie i wyświetlanie postów. Niech Post będzie obiektem, który ma pola
 3. Stwórz stronę jsp, która będzie wyświetlać na górze formularz za pomocą którego
 użytkonik może dodać nowy post. Stwórz servlet `PostAction`, który obsłuży proces dodawania
 posta.
+
+4. Stwórz funkcjonalnoś wylogowywania się. Klasa `LogutAction` będąca servletem
+powinna kasować id zalogowanego użytkownika z sesji oraz kasować ciasteczko na przeglądarce.
+
+5. Dodaj do postów możliwość komentowania ich. Pod każdym postem powinna pojawić się możliwość komentowania 
+jako osobny formularz oraz lista dodanych komentarzy. Będziesz do tego potrzebował rozszrzyć model. 
+Wykorzystaj tagi biblioteki JSTL. 
+
+6. Dodaj możliwość modyfikacji swojego profilu przez użytkownika (wgrywanie zdjęcia, dane personalzacyjne tj. kolory
+wielkość czcionki w ciasteczkach)
+
